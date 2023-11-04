@@ -1,0 +1,24 @@
+.outer {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #e7e7e7;
+}
+.inner {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+.icon {
+  position: absolute;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #a3a3a3;
+}

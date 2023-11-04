@@ -1,0 +1,29 @@
+.container {
+  height: 26em;
+  width: 15rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #cccccc;
+  border-radius: 0.7rem;
+  box-shadow: rgba(17, 13, 13, 0.4) 0px 0px 20px inset;
+}
+.screen {
+  width: 97%;
+  height: 54%;
+  position: relative;
+  background-color: #979797;
+  background: url("bg.jfif") no-repeat center center/cover;
+  margin: auto;
+  border-radius: 0.4rem;
+}
+.controll {
+  width: 100%;
+  height: 44%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
