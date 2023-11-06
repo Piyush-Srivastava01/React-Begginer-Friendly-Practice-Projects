@@ -1,0 +1,73 @@
+.albumHeader{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+.backBtn{
+    width: 2.5rem;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transition: background-color ease-in-out 0.5s;
+}
+.backBtn:hover{
+    background-color: cornflowerblue;
+}
+.backAndHeadingCon,.formBtn{
+    display: flex;
+    align-items: center;
+}
+.imagesCon{
+    display: grid;
+    gap: 12px;
+    width: 70%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.imageCon{
+    height: 35vh;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+.image{
+    height: 90%;
+    width: 100%;
+}
+.imageTitle{
+    font-size: 1.2rem;
+}
+.hoverEffect{
+    display: flex;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.hoverEffect img{
+    height: 3rem;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.imageCon:hover .hoverEffect{
+    opacity: 1;
+}
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}

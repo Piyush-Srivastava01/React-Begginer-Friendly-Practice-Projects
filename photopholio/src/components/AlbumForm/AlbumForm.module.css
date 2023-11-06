@@ -1,0 +1,29 @@
+.formContainer{
+    background-color:white;
+    width: 70%;
+    border-radius:20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color:lightslategray;
+    margin: auto;
+}
+.formHeading{
+    font-size: 2rem;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+}
+.nameInput{
+    height: 4vh;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0;
+    border:1px solid lightgray;
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 30vw;
+}
