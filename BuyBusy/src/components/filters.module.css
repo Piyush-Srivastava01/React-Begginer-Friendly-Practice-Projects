@@ -1,0 +1,38 @@
+.filters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: #224957;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.filters .priceRange{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.filters .category{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.filters .category input[ type = "checkbox" ]{
+    border-radius: 0.25rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    width: 1rem;
+}
+
+.filters .category .categoryItem{
+    display: flex;
+    margin: 2px 0;
+}
+
+
+

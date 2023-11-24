@@ -1,0 +1,42 @@
+.navbar{
+    position: relative;
+    color: var(--primary-color);
+    padding: 0 1em;
+    font-size: 1.2rem;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 15px 20px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+}
+.navbar .navbarContainer ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+}
+.navbar .navbarContainer ul li{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.1rem;  
+    cursor: pointer;  
+    list-style-type: none;
+}
+
+.navbar .navbarContainer ul .icon{
+    height: 38px;
+    margin: 0 8px;
+}
+
+.navbar .navbarContainer a {
+    text-decoration: none; 
+    display: flex;
+    align-items: center;  
+}

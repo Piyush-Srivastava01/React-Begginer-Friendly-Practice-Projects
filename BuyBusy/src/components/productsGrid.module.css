@@ -1,0 +1,13 @@
+.productsGrid{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 2rem;
+    margin:2rem 16rem ;
+    box-sizing: border-box;
+}
+
+.cartSidebar{
+    width: 13rem;
+    background-color: var(--);
+}
+

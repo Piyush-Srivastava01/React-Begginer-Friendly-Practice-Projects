@@ -1,0 +1,36 @@
+.ordersContainer{
+    text-align: center;
+}
+
+.ordersContainer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ordersContainer p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+
+.ordersContainer table{
+    border: none;
+    margin: 0 auto 4rem;
+    position: relative;
+    width: 50%;
+    border-spacing: 2px;
+}
+
+.ordersContainer table th{
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.ordersContainer table td{
+    padding: 10px;
+    background-color: #d9d9d936;
+
+}
+
